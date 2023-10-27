@@ -36,4 +36,40 @@ font-family: 'Ubuntu', sans-serif;
     align-items: center;
     font-weight: bolder;
     font-size: 1.3rem;
+
+ }
+ .container{
+   min-height: 75vh;
+   background-color: black;
+   color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+border-radius: 14px;
+padding: 35px;
+background-image: url(bg.jpeg);
+
+ }
+ .bottom{
+   position: sticky;
+   background-color: black;
+   height: 125px;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+      align-items: center;
+      color:white;
+      flex-direction: column;
+
+ }
+ .icons{
+   margin-top: 17px;
+ }
+ .icons i{
+   cursor: pointer;
+ }
+ #progressBar{
+   width: 75%;
+
  }
